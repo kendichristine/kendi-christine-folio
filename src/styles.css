@@ -143,3 +143,9 @@
     color: var(--color-foreground);
   }
 }
+
+@utility hero-surface {
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 0%, oklch(0.93 0.05 195 / 0.7), transparent 70%),
+    var(--color-background);
+}
